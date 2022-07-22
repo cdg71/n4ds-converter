@@ -1,0 +1,29 @@
+{
+  "name": "n4ds-converter",
+  "version": "0.1.0",
+  "description": "Ce script permet de convertir un fichier N4DS multi organisations en autant de fichiers N4DS individuels.",
+  "author": "Jean-Philippe Bourgeon <jeanphilippe.bourgeon@gmail.com> (https://www.linkedin.com/in/jpbourgeon)",
+  "license": "CECILL-C",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdg71/civilnet-payroll-cutter"
+  },
+  "type": "module",
+  "main": "./main.js",
+  "scripts": {
+    "start": "node main.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "papaparse": "^5.3.2",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
